@@ -1,0 +1,87 @@
+body{
+    background-color: cadetblue;
+}
+
+
+.msg{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: 10vh;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.board{
+    width: 50%;
+    height: 50vh;
+    padding: 1% 0 0 0;
+    margin:10% auto;
+    text-align: center;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    box-shadow: 2px 2px 17px 2px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 2px 2px 17px 2px rgba(0,0,0,0.74);
+}
+
+.next-num{
+    margin-bottom: 2%;
+    font-size: x-large;
+}
+
+
+table{
+    width: 50%;
+    height: 30vh;
+    margin: auto;
+    text-align: center;
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: darkcyan;
+    box-shadow: 2px 2px 17px 2px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 2px 2px 17px 2px rgba(0,0,0,0.74);
+}
+
+
+th{
+   
+    font-size: x-large;
+    border: 1px solid black;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+th:hover{
+    background-color: rgb(142, 127, 255); 
+}
+
+.correct{
+    background-color: aquamarine;
+    border-radius: 40px;
+}
+
+.timer{
+    font-size: x-large;
+    padding: 3% 0;
+}
+
+.difficulty-btns{
+    padding: 1%;
+
+}
+
+button{
+    width: 15%;
+    height: 4vh;
+    margin: 0 5%;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: burlywood;
+}
